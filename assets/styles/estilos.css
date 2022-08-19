@@ -1,0 +1,47 @@
+.fondo{
+    background: rgb(56, 56, 57);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,43,121,1) 34%, rgba(0,212,255,1) 100%);
+}
+
+.fuente{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.fuente2{
+    font-size: 100px;
+}
+
+.intro{
+    background-color: rgba(63, 63, 2, 0.833);
+}
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+.quienes{
+    background-image: url("../img/fondo2.jpg") ;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="../../assets/styles/estilos.css">
+</head>
+<body>
+  <header class="animate__animated animate__backInLeft">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <img height="100px" width="100px" src="../../assets/img/Logo Sencillo Neón para Bar (1).jpg" alt="">
+          <a class="navbar-brand"  href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../../index.html">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../../index.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <i class="bi bi-cart fs-3"></i>
+                      <span id="bolita" class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                        99+
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container my-5" id="contenedor">
+            
+        </div>
+        
+        
+        <div class="alert alert-primary text-center"   role="alert"  >
+          <h3>El Total De Tu Compra es :</h3>
+          <h1  id="total"></h1>
+        </div>
+        
+       <div class="w-100 mx-auto m-xxl-auto d-block">
+        <button type="button" class="btn btn-primary text-center mx-auto m-xxl-auto d-block my-4" id="cambioMoneda">
+          CambioMoneda
+        </button>
+         
+       </div>
+   
+
+
+        <div class="container mb-5">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-3 text-center">
+            
+              
+              <button type="button" class="btn btn-primary" id="botonLimpiar">
+                <i class="bi bi-trash"></i> 
+                Limpiar
+              </button>
+
+            
+
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="card text-center">
+        <div class="card-header">
+          Realizado Por
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">David Molina Torres</h5>
+          <p class="card-text">Correo: davidmolinatorres789@gmail.com</p>
+          <a href="https://github.com/DavidMolina19/Licorera" class="btn btn-primary">Link de github</a>
+        </div>
+        <div class="card-footer text-muted">
+          
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="../controllers/controladorResumenCompra.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

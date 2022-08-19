@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="./assets/styles/estilos.css">
+</head>
+
+<body class="fuente">
+
+    <header class="animate__animated animate__backInLeft text-center">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <img height="100px" width="100px" src="./assets/img/Logo Sencillo Neón para Bar (1).jpg" alt="">
+              <a class="navbar-brand"  href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./src/views/ampliarInfo.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./src/views/registro.html">Registro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./src/views/quienes.html">¿Quienes somos?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <video class="w-100" src="./assets/img/VideoLicorera2.mp4" muted autoplay loop></video>
+        </section>
+
+        <section class="intro">
+            <div class="container-fluid text-white">
+              <div class="row">
+                <div class="col-12 text-center my-3">
+                  <h1 class="text-center mb-4">Licorera Los Torres</h1>
+                </div>
+              </div>
+                <div class="row mb-5 text-white justify-content-center">
+                    
+                  <div class="col-5">
+                    <img class="img-fluid w-100 float-end" src="./assets/img/category-banner-licores-mb.webp" alt="foto">
+                </div>
+                    <div class="col-4 text-center mt-5 align-self-center">
+                        <h3>Licores 100% garantizados </h3>
+                        <h4>disfruta de los mejores licores nacionales e internacionales.</h4>
+                        <h4 class="mt-4">Registrate en nuestra pagina</h4>
+                        <button class="btn btn-primary mt-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                            Ingresa 
+                        </button>
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+
+                </div>
+                
+            </div>
+        </section>
+
+
+        
+
+        <section>
+          <div class="container my-5">
+            <div class="row">
+              <div class="col-12 my-3">
+                <input id="busqueda" type="search" class="form-control" placeholder="Buscar">
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-3" id="fila">
+
+              
+
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ingreso</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    <form>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </form>
+                  </div>
+            
+                </div>
+              </div>
+        </section>
+
+        
+    </main>
+    <footer>
+      <div class="card text-center">
+        <div class="card-header">
+          Realizado Por
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">David Molina Torres5</h5>
+          <p class="card-text">Correo: davidmolinatorres789@gmail.com</p>
+
+          <section>
+            <a href="https://api.whatsapp.com/send?phone=+573024198800" class="" target="_blank">
+              
+              <i class="bi bi-whatsapp fs-2 text-success"></i>
+        </section>
+          <a href="https://github.com/DavidMolina19/Licorera" class="btn btn-primary">Link de github</a>
+        </div>
+        <div class="card-footer text-muted">
+          
+        </div>
+      </div>
+    </footer>
+
+   
+    <script src="./src/controllers/controladorTienda.js" type="module"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
